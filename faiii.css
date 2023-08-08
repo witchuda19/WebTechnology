@@ -1,0 +1,78 @@
+
+/* กำหนด CSS Grid Container */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px; /* กำหนดระยะห่างระหว่างรายการ */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%; /* กำหนดความกว้าง 90% ของพื้นที่ที่ครอบ Grid Container */
+  /*max-width: 1200px; /* กำหนดความกว้างสูงสุดของ Grid Container */
+  justify-content: stretch; /* กำหนดให้เนื้อที่ภายใน Grid Container ตรงกลางตามแนวนอน */
+  align-items: stretch; /* กำหนดให้เนื้อที่ภายใน Grid Container ตรงกลางตามแนวตั้ง */
+
+}
+
+/* กำหนด CSS Grid Item */
+.item { 
+  background-color: #f68606;
+  padding: 100px;
+  text-align: center;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  height: 200px;
+}
+.header {
+  position: relative;
+  background-color: #5d62ea; /* สีแถบสี */
+  height: 50px; /* ความสูงของแถบสี */
+  padding: 20px;
+  width: 100%;
+  border: 1px solid #000;
+}
+
+
+footer{
+  background-color: rgb(7, 17, 136);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  border: 1px solid #000;
+}
+  
+  @media (min-width: 576px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .grid-container {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+  
+ 
+
+
+     

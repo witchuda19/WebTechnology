@@ -1,0 +1,73 @@
+body {
+    background-image: linear-gradient(rgba(248, 246, 246, 0.844), rgba(255, 255, 255, 0.833)), url("https://brand.mju.ac.th/images/mju_logo.jpg");
+    background-size: cover; 
+    background-position: center; 
+}
+textarea {
+    width: 85%; 
+    height: calc(1.5em * 2);
+    padding: 10px;
+    text-align: center;
+    resize:none ; 
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh; 
+    justify-content: center; 
+    align-items: center;
+ 
+}
+
+.box {
+    flex: 1;
+    min-width: calc(50%);
+    padding: 3px;
+    text-align:left;
+    border: 0.5px solid #000;
+    background-color: transparent;
+    width: 180px;
+    height: 200px;
+    resize: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(224, 224, 232, 0.552);
+}
+.row {
+    display: flex;
+    flex-basis: 100%; 
+}
+.text2 {
+    font-size: 16px; 
+    line-height: 1.5; 
+}
+h1 {
+    font-size: 40px; 
+    position: relative;
+    top: -70px; 
+}
+.image-container {
+    position: relative;
+    top: 20px; 
+    left: 38px;
+    align-items: center;
+}
+.c {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+}
+.text1 {
+    font-size: 18px; 
+    line-height: 1.5; 
+}
+.submit {
+    height: 10vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+} 
+.color{
+    background-color: rgba(80, 80, 80, 0.844);
+}

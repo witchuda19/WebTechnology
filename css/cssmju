@@ -1,0 +1,36 @@
+body{
+    background-color: aquamarine;
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    margin: 0px;
+    padding: 15px;
+    background-color: crimson;
+}
+h1{
+    margin: 0px;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30%;
+}
+.bg-green {
+    background-color: coral
+}
+nav ul li{
+    display: inline-block;
+    background-color: black;
+    color: darkgreen;
+    width: 150px;
+    text-align: 10px;
+    padding: 10px;
+}
+footer {
+    background-color: gold;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
